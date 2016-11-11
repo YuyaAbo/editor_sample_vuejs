@@ -1,9 +1,11 @@
-# Editor component sample by vue.js
+# Editor Component Sample by vue.js
 
 ## System
 
 Vue.js 2
+
 webpack
+
 babel
 
 ## Install

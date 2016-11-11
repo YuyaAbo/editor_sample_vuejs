@@ -1,8 +1,7 @@
 {
-  "name": "vue_test",
+  "name": "editor_component_sample_vuejs",
   "version": "1.0.0",
   "description": "vue.js + vue-loader + webpack",
-  "main": "index.js",
   "scripts": {
     "test": "test",
     "webpack": "webpack"
