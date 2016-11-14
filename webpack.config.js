@@ -6,8 +6,20 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.vue$/, loader: 'vue' },
-      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+      {
+        test: /\.vue$/,
+        loader: 'vue',
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
+      },
     ]
+  },
+  vue: {
+    loaders: {
+      scss: 'style!css!sass'
+    }
   }
 }

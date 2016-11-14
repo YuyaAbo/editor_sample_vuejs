@@ -1,28 +1,22 @@
-<style>
-  #editor-component h2 {
-    color: red;
-  }
-</style>
-
 <template>
   <div id="editor-component">
-    <h2>{{msg}}</h2>
-    <button class="btn" @click="alert">{{msg}}</button>
+    <h2>{{ msg }}</h2>
   </div>
 </template>
 
 <script>
-  module.exports = {
+  export default {
     data() {
       return {
         msg: 'Editor Component'
       }
-    },
-
-    methods: {
-      alert() {
-        alert('hello world');
-      }
     }
   }
 </script>
+
+<style lang="scss" scoped>
+  #editor-component h2 {
+    color: red;
+    font-family: 'YuGothic';
+  }
+</style>
