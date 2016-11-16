@@ -2,29 +2,6 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  /*entry: './src/main.js',
-  output: {
-    path: "./public",
-    filename: 'editor.js'
-  },
-  module: {
-    loaders: [
-      {
-        test: /\.vue$/,
-        loader: 'vue',
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "babel-loader"
-      },
-    ]
-  },
-  vue: {
-    loaders: {
-      scss: 'style!css!sass'
-    }
-  }*/
   entry: './src/main.jsx',
   output: {
     path: "./public",
