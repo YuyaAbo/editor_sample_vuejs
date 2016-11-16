@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>.vue sample by vue-loader</title>
+  </head>
+  <body>
+    <div id="editor"></div>
+    <!--<script src="public/editor.js"></script>-->
+    <script src="public/react-editor.js"></script>
+  </body>
+</html>
